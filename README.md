@@ -1,5 +1,5 @@
 # SMS-spam-filtering
-### Class project for Text Mining
+Class project for Text Mining
 
 content-based SMS spam filtering with machine learning models
 
