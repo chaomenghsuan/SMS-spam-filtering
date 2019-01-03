@@ -18,6 +18,7 @@ from scipy.sparse import csr_matrix
 # structural feature parameters
 
 feat = [True, True, True, True, True, True]
+inDir = '/Users/zhaomengxuan/Documents/text mining/final project/spam.csv'
 
 ######################
 ## data extraction  ##
@@ -25,7 +26,7 @@ feat = [True, True, True, True, True, True]
 print('='*10+'\ndata loading')
 # Raw data processing: extract data from .csv file
 
-sms = pd.read_csv('/Users/zhaomengxuan/Documents/text mining/final project/spam.csv', encoding='latin-1')
+sms = pd.read_csv(inDir, encoding='latin-1')
 
 #Drop column and name change
 sms = sms.drop(["Unnamed: 2", "Unnamed: 3", "Unnamed: 4"], axis=1)
